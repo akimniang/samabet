@@ -1,0 +1,170 @@
+
+
+.navbar{
+	width: 96%;
+	position: fixed;
+	background-color: chartreuse;/**************************************/
+	padding: 8px 0px;
+
+}
+
+.bis1{
+
+
+}
+
+.navbar:hover{
+background-color: yellow;
+	transition: 1s;
+	color: white;
+	
+}
+.navbar .max-width{
+
+	
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+
+.navbar.max-width.logo:hover{
+color: red;
+	transition: 0.5s;
+
+}
+
+.logo a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	position: left;
+	display: inline-block;
+}
+.logo span{
+	color: #000;
+}
+
+
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+	color: black;
+	font-size: 20px;
+	font-weight: 100;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+
+
+
+.menu li a:hover{
+	color: white;
+	}
+
+
+.jeu{
+	background-color: none;
+	color:black;
+	text-align: left;
+	display: inline-block;
+
+
+}
+
+
+.jeu:hover{
+	background-color: red;
+	color:black;
+	transition: 1s;
+
+
+}
+
+.jus{
+	background-color: none;
+	color: white;
+
+}
+
+.jus:hover{
+	background-color: black;
+	color: lawngreen;
+
+}
+
+
+.Pari1{
+	font-size: 10px;
+	transition: 1s;
+
+}
+
+.Pari1:hover{
+	font-size: 10px;
+	transition: 2s;
+	background-color: yellow;
+
+}
+
+.Pari2{
+	font-size: 10px;
+	transition: 2s;
+
+}
+
+
+
+.Pari3{
+	font-size: 10px;
+	transition: 3s;
+
+}
+
+.Pari3:hover{
+	font-size: 10px;
+	transition: 2s;
+	background-color: red;
+}
+
+
+/****************************************************************/
+
+
+.fin{
+	height: 100px;
+	
+	background-color: black;
+	color: white;
+}
+
+.fin:hover{
+	color: black;
+	background-color: lawngreen;
+	transition: 1s;
+}
+
+.division2{
+	color:red;
+	background-color: yellow;
+	height: 350px;
+    width: 250px;
+    border: 6px solid green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+.division2:hover{
+
+	background-color: black;
+	color: white;
+	transition: 1s;
+
+}

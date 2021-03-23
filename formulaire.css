@@ -1,0 +1,456 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: ;
+	list-style: none;
+	font-family: sans-serif;
+
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: lawngreen;/**************************************/
+	padding: 8px 0px;
+
+}
+
+.bis1{
+
+
+}
+
+.navbar:hover{
+background-color: yellow;
+	transition: 1s;
+	color: white;
+	
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+
+.navbar.max-width.logo:hover{
+color: red;
+	transition: 0.5s;
+
+}
+
+.logo a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	position: left;
+	display: inline-block;
+}
+.logo span{
+	color: #000;
+}
+
+
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+	color: black;
+	font-size: 20px;
+	font-weight: 100;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.sous{
+	display: none;
+	position: absolute;
+
+}
+
+..menu li:hover .sous{
+
+	display: block;
+}
+
+.sous li{
+	width: 100%;
+	text-align: center;
+	background-color: #e74c3c;
+	border: 12px solid white;
+
+}
+
+
+.menu li a:hover{
+	color: white;
+	}
+
+
+.jeu{
+	background-color: none;
+	color:black;
+	text-align: left;
+	display: inline-block;
+
+
+}
+
+
+.jeu:hover{
+	background-color: red;
+	color:black;
+	transition: 1s;
+
+
+}
+
+.jus{
+	background-color: none;
+	color: white;
+
+}
+
+.jus:hover{
+	background-color: black;
+	color: lawngreen;
+
+}
+
+
+.Pari1{
+	font-size: 10px;
+	transition: 1s;
+
+}
+
+.Pari1:hover{
+	font-size: 10px;
+	transition: 2s;
+	background-color: yellow;
+
+}
+
+.Pari2{
+	font-size: 10px;
+	transition: 2s;
+
+}
+
+
+
+.Pari3{
+	font-size: 10px;
+	transition: 3s;
+
+}
+
+.Pari3:hover{
+	font-size: 10px;
+	transition: 2s;
+	background-color: red;
+}
+
+
+/****************************************************************/
+.home{
+	height: 500px;
+	width: 400px;
+	    position: static;
+	display: block;
+	text-align: center;
+
+}
+.home .max-width{
+	background: url('ISIKM IAGE GL✍🏿🎓🎓 20210122_094524.jpg');
+	color: white;
+	padding-top:92px;
+	    padding-bottom: 120px;
+	        padding-inline-start: 33px;
+	font-size: 10px;
+	
+}
+
+
+.about .max-width{
+
+			height: 280px;
+			width: 800px;
+}
+
+.home .home-content .text-1{
+	font-size: 30px;
+	font-weight: 60;
+	color: black;
+	font-family: ravie;
+}
+
+.home .home-content .text-1:hover{
+	font-size: 35px;
+	font-weight: 60;
+	color: green;
+	font-family: ravie;
+	transition: 4s;
+	transition-duration: 5s;
+
+}
+
+
+
+.home .home-content .text-2{
+	color: green;
+	font-size: 60px;
+	font-weight: 500;
+	font-family: magneto;
+	}
+
+.home .home-content .text-2:hover{
+
+		transition: 1s;
+		color: red;
+		font-family: harrigton;
+}
+
+.home .home-content .text-3{
+	font-size: 50px;
+	font-weight: 700;
+	color: yellow;
+	font-family: magneto;
+}
+
+.home .home-content .text-3:hover{
+	transition: 1s;
+	color:green;
+	font-family: chiller;
+}
+.home .home-content .text-3 span{
+	color: black;
+}
+
+.home .home-content .text-3 span:hover{
+	transition: 1s;
+	color: yellow;
+
+
+
+}
+
+.home .home-content .button-one{
+	display: inline-block;
+	background-color: lawngreen;/**********************************/
+	font-size: 10px;
+	font-weight: 200;
+	color: white;
+	border: 2px solid yellow;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.home .home-content .button-one:hover{
+	background: none;
+	color: black;
+	background-color: orange
+}
+
+/********************************************************************************/
+.about{
+	padding: 180px 150px;
+	background-color: lawngreen;/**********/
+}
+
+.about:hover{
+
+	transition: 1s;
+	background-color: yellow;
+	color: black;
+
+}
+
+.about .title{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+	padding-bottom: 80px;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.about .div-leftdiv{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+	height: 400px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+
+.about .div-right .text{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	}
+.about .div-right .text span{
+		color: crimson;
+	}
+.about .div-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+
+.about .div-right .button-two{
+	display: inline-block;
+	background-color: yellow;
+	font-size: 40px;
+	font-weight: 200;
+	color: red;
+	border: 2px solid yellow;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.about .div-right .button-two:hover{
+	background-color: red;
+	color: black;
+}
+.my_team{
+	margin-left: 100px;
+}
+.my_team > span{
+	padding: 50px;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
+.my_team > img{
+	border-color: 2px solid red;
+}
+.team{
+	width: 200px;
+	height: 150px;
+	border-radius: 50%;
+	float: center;
+	margin-left: 40px;
+	border: 4px solid black;
+
+}
+
+.sect1{
+
+	background-color: lawngreen;/*****************************/
+
+
+}
+
+.sect1:hover{
+background-color: gold;
+transition: 1s;
+
+}
+	line-height: 35px;
+	display: block;
+	background-color: green;
+}
+
+.contacts p{
+	margin-left: 100px;
+
+}
+
+.contact{
+	background-color: lawngreen;/********************************/
+	float: left;
+
+
+}
+
+
+.contact:hover{
+	background-color: red;
+	transition: 1s;
+
+
+}
+.form{
+	padding: 100px;
+	margin: px;
+	padding-top: 0px;
+	/*margin-top: 0px;*/
+	background-color: lawngreen;/****************/
+
+
+}
+
+.form:hover{
+	background-color: yellow;
+	transition: 0.5s;
+}
+
+.form > .email{
+	margin-left: 40px;
+}
+.form > .button{
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+
+.fin{
+	height: 100px;
+
+	background-color: black;
+	color: white;
+}
+
+.fin:hover{
+	color: black;
+	background-color: lawngreen;
+	transition: 1s;
+}
+
+.division2{
+	color:red;
+	background-color: yellow;
+	height: 350px;
+    width: 250px;
+    border: 6px solid green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+.division2:hover{
+
+	background-color: black;
+	color: white;
+	transition: 1s;
+
+}
+
+.bouton{
+
+	background-color: lawngreen;
+	color: black;
+}
+
+.bouton:hover{
+
+	background-color: red;
+	color: white;
+}

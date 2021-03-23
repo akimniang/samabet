@@ -1,0 +1,74 @@
+button{
+	padding: 15px 15px;
+	font-size: 24px;
+	background-color: blue;
+	color: white;
+	border:none;
+	border-radius: 12px;
+	cursor: pointer;
+	box-shadow: 0px 9px grey;
+	outline: none;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+   
+    min-height: 84%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+button:hover{
+	transform: translateY(3px);
+	box-shadow: 0px 7px grey;
+}
+button:active{
+	box-shadow: 0px 2px grey;
+	transform: translateY(5px);
+}
+div{
+	text-align: center;
+	margin: 150px;
+}
+a{
+	
+	text-decoration: none; 
+	font-weight: bold;
+	font-style: italic;
+	font-family: Times New Roman;
+	margin-top: 70px;
+}
+.ltr{
+	font-size: 10px;
+}
+
+.lettre{
+	font-size: 90px;
+    font-family: ravie;
+    color: yellow;
+}
+
+
+.car{
+background-color: lawngreen;
+color: black;
+margin-top: 170px;
+}
+
+.car:active{
+	box-shadow: 0px 2px grey;
+	transform: translateY(5px);
+}
+
+.car:hover{
+background-color: red;
+color : black;
+
+
+
+}
+
